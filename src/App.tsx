@@ -1,5 +1,5 @@
 import "xterm/css/xterm.css";
-import wasm from "./pkg";
+import wasm from "@/pkg";
 import { useEffect } from "react";
 
 export default function App() {
