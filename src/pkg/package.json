@@ -1,0 +1,26 @@
+{
+  "name": "helix-web",
+  "type": "module",
+  "collaborators": [
+    "makemeunsee <makemeunsee@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "helix_web_bg.wasm",
+    "helix_web.js",
+    "helix_web_bg.js",
+    "helix_web.d.ts"
+  ],
+  "exports": {
+    "./helix_web_bg.wasm": "./helix_web_bg.wasm",
+    "./index.js": "./helix_web.js",
+    "./helix_web_bg.js": "./helix_web_bg.js",
+    "./helix_web.d.ts": "./helix_web.d.ts"
+  },
+  "main": "helix_web.js",
+  "types": "helix_web.d.ts",
+  "sideEffects": [
+    "./helix_web.js",
+    "./snippets/*"
+  ]
+}
